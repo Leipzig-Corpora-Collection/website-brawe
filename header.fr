@@ -1,0 +1,51 @@
+ <meta name="description" content="Brawe Ressourcen – Wissenschaftliches Joachim-Wilhelm-von-Brawe-Archiv im WWW">
+ <meta name="author" content="Frank Fischer">
+ <meta name="keywords" content="Brawe, Lessing, L'Esprit Fort, Freigeist, Brutus, Trauerspiel, Tragédie bourgeoise, Théâtre allemand, Germanistik, August Sauer">
+ <meta name="copyright" content="Copyright &copy; 2001–2019 by Frank Fischer und Jörg Riemer">
+ <meta name="robots" content="index, follow">
+ <meta http-equiv="language" content="fr">
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta http-equiv="content-style-type" content="text/css">
+ <link rel="stylesheet" type="text/css" href="../brawe.css">
+
+</head>
+
+<body bgcolor="#d0d0ff">
+
+ <center>
+ <a name="OBEN"></a>
+
+ <table border="0" cellpadding="1" cellspacing="0" bgcolor="black" width="602">
+  <tr>
+   <td>
+    <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffe0a0" width="600">
+     <tr>
+      <td align="center" width="25%" style="vertical-align:middle;">
+       <a href="../start/start.html">
+        <img src="../logo.gif" height="55" width="130" border="0" alt="Brawe Ressourcen Logo" />
+       </a>
+      </td>
+      <td class="navigationsbar" align="center">
+       | <a href="../start/start.html">Vorwort</a>
+       | <a href="../bibliographie/bibliographie.html"><b>Brawe-Bibliografie</b></a>
+       | <a href="../neues/seminare.html">Seminare</a>
+       |<br />
+       | <a href="../neues/neues.html">Neues</a>
+       | <a href="../bilder/bilder.html">Bilder</a>
+       | <a href="../suchen/suchen.html">Suche</a>
+       | <a href="../kontakt/kontakt.html">Kontakt</a>
+       | <a href="../docuverse/start.html">Docuverse</a>
+       |<br />
+       2001–2019 hrsg. von Frank Fischer und Jörg Riemer<br />
+       Letzte Aktualisierung am 24.08.2019<br />
+      </td>
+      <td align="center" width="15%" style="vertical-align:middle">
+       | <a href="#UNTEN">unten</a> |
+      </td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+ </table>
+
+<br />

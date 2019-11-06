@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+ <title>Brawe Ressourcen. Suchen</title>
+
+<?php
+   #insert header
+   include ("../header.txt");
+?>
+
+<!-- Beginn Navigation -->
+ <table border="0" cellpadding="1" cellspacing="0" bgcolor="black" width="602">
+  <tr>
+   <td>
+
+    <table border="0" cellpadding="20" cellspacing="0" bgcolor="white" width="600">
+     <tr>
+      <td>
+       <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" width="100%">
+        <tr>
+          <td class="navigationsbar" align="left" width="33%">
+           &nbsp;
+           <hr noshade="noshade" size="1" />
+          </td>
+          <td class="navigationsbar" align="center" width="34%">
+           Suchen
+           <hr noshade="noshade" size="1" />
+          </td>
+          <td class="navigationsbar" align="right" width="33%">
+           &nbsp;
+           <hr noshade="noshade" size="1" />
+          </td>
+        </tr>
+       </table>
+<!-- Ende Navigation -->
+
+<!-- Beginn Text -->
+
+<p class="sekundaer-absatz">
+Durchsuchen Sie die Website mit Google.
+</p>
+
+<!-- Beginn Google-Suchbox -->
+<div id="cse" style="width: 100%;">Loading</div>
+<script src="//www.google.de/jsapi" type="text/javascript"></script>
+<script type="text/javascript"> 
+  google.load('search', '1', {language : 'de'});
+  google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl('001010573367525101589:qa4ctsj34os');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw('cse');
+  }, true);
+</script>
+<link rel="stylesheet" href="//www.google.com/cse/style/look/default.css" type="text/css" />
+<!-- Ende Google-Suchbox -->
+
+<!-- Beginn Hilfetext -->
+
+<p class="sekundaer-absatz">
+Hilfe zur Suchfunktion
+</p>
+
+<p class="sekundaer-absatz">
+Es steht Ihnen die volle Funktionalität der Suchmaschine Google
+zur Verfügung. Sinnvoll ist unter Umständen die Phrasensuche mit Anführungszeichen, z. B.
+<a href="http://www.google.de/search?q=%22einheit+der+handlung%22+site:brawe.uni-leipzig.de">"einheit der handlung"</a>.
+Dabei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+Weitere <a href="http://www.google.de/support/websearch/?hl=de">Suchtipps</a> finden Sie auf der Google-Website.
+</p>
+
+<br />
+
+<!-- Ende Hilfetext -->
+
+<!-- Ende Text -->
+
+<!-- Beginn Navigation -->
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="white" width="100%">
+ <tr>
+  <td class="navigationsbar" align="left" width="33%">
+   <hr noshade="noshade" size="1" />
+   &nbsp;
+  </td>
+  <td class="navigationsbar" align="center" width="34%">
+   <hr noshade="noshade" size="1" />
+   Suchen
+  </td>
+  <td class="navigationsbar" align="right" width="33%">
+   <hr noshade="noshade" size="1" />
+   &nbsp;
+  </td>
+ </tr>
+</table>
+<!-- Ende Navigation -->
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+    </table>
+
+<?php
+   #insert footer
+   include ("../footer.txt");
+?>
