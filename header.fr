@@ -1,7 +1,7 @@
  <meta name="description" content="Brawe Ressourcen – Wissenschaftliches Joachim-Wilhelm-von-Brawe-Archiv im WWW">
  <meta name="author" content="Frank Fischer">
  <meta name="keywords" content="Brawe, Lessing, L'Esprit Fort, Freigeist, Brutus, Trauerspiel, Tragédie bourgeoise, Théâtre allemand, Germanistik, August Sauer">
- <meta name="copyright" content="Copyright &copy; 2001–2019 by Frank Fischer und Jörg Riemer">
+ <meta name="copyright" content="Copyright &copy; 2001–2022 by Frank Fischer und Jörg Riemer">
  <meta name="robots" content="index, follow">
  <meta http-equiv="language" content="fr">
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -36,8 +36,8 @@
        | <a href="../kontakt/kontakt.html">Kontakt</a>
        | <a href="../docuverse/start.html">Docuverse</a>
        |<br />
-       2001–2019 hrsg. von Frank Fischer und Jörg Riemer<br />
-       Letzte Aktualisierung am 24.08.2019<br />
+       2001–2022 hrsg. von Frank Fischer und Jörg Riemer<br />
+       Letzte Aktualisierung am 15.07.2022<br />
       </td>
       <td align="center" width="15%" style="vertical-align:middle">
        | <a href="#UNTEN">unten</a> |

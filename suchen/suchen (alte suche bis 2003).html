@@ -6,7 +6,7 @@
 
 <?php
    #insert header
-   include ("../header.utf");
+   include ("../header.txt");
 ?>
 
 <!-- Beginn Navigation -->
@@ -42,8 +42,15 @@ Durchsuchen Sie die Website mit Google.
 </p>
 
 <!-- Beginn Google-Suchbox -->
-<script async src="https://cse.google.com/cse.js?cx=001010573367525101589:qa4ctsj34os"></script>
-<div class="gcse-search"></div>
+<p>
+ <form method="get" action="http://www.google.de/custom">
+  <input type="text" name="q" size="35" maxlength="255" value="">
+  <input type="submit" name="sa" VALUE=" Suchen ">
+  <input type="hidden" name="cof" value="GIMP:#ff0000;T:#000000;ALC:#0000ff;GFNT:#404040;LC:#0000ff;BGC:#ffffff;AH:center;VLC:#3366cc;S:http://brawe.uni-leipzig.de;GALT:#008000;AWFID:b8e2a00f849f2b7e;">
+  <input type="hidden" name="domains" value="brawe.uni-leipzig.de">
+  <input type="hidden" name="sitesearch" value="brawe.uni-leipzig.de" checked>
+ </form>
+</p>
 <!-- Ende Google-Suchbox -->
 
 <!-- Beginn Hilfetext -->
@@ -53,11 +60,11 @@ Hilfe zur Suchfunktion
 </p>
 
 <p class="sekundaer-absatz">
-Es steht Ihnen die volle FunktionalitÃ¤t der Suchmaschine Google
-zur VerfÃ¼gung. Sinnvoll ist unter UmstÃ¤nden die Phrasensuche mit AnfÃ¼hrungszeichen, z.Â B.
-<a href="https://www.google.de/search?q=%22einheit+der+handlung%22+site:brawe.uni-leipzig.de">"einheit der handlung"</a>.
-Dabei wird nicht zwischen GroÃŸ- und Kleinschreibung unterschieden.
-Weitere <a href="https://support.google.com/websearch/?hl=de">Suchtipps</a> finden Sie auf der Google-Website.
+Es steht Ihnen die volle Funktionalität der Suchmaschine Google
+zur Verfügung. Sinnvoll ist unter Umständen die Phrasensuche mit Anführungszeichen, z.B.
+<a href="http://www.google.de/custom?q=%22einheit+der+handlung%22&sa=+Suchen+&cof=GIMP%3A%23ff0000%3BT%3A%23000000%3BALC%3A%230000ff%3BGFNT%3A%23404040%3BLC%3A%230000ff%3BBGC%3A%23ffffff%3BAH%3Acenter%3BVLC%3A%233366cc%3BS%3Ahttp%3A%2F%2Fbrawe.uni-leipzig.de%3BGALT%3A%23008000%3BAWFID%3Ab8e2a00f849f2b7e%3B&domains=brawe.uni-leipzig.de&sitesearch=brawe.uni-leipzig.de">"einheit der handlung"</a>.
+Dabei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+Weitere <a href="http://www.google.de/intl/de/help.html">Suchtipps</a> finden Sie auf der Google-Website.
 </p>
 
 <br />
