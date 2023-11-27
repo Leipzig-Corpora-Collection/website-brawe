@@ -1,2 +1,6 @@
 AddType application/x-httpd-php php php4 php3 html htm
 DirectoryIndex start.html
+
+<Files "docker-compose.yml">
+    Require all denied
+</Files>
