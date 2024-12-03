@@ -1,9 +1,8 @@
-version: '2.2'
 services:
-  php-apache-environment:
+  brawe-web:
     container_name: brawe_website
-    image: php:8.1-apache
+    image: php:8.3-apache
     volumes:
       - .:/var/www/html/
     ports:
-      - 8300:80
+      - 127.0.0.1:8300:80
