@@ -2,6 +2,7 @@ services:
   brawe-web:
     container_name: brawe_website
     image: php:8.3-apache
+    restart: always
     volumes:
       - .:/var/www/html/
     ports:
